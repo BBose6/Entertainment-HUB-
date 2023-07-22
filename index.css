@@ -1,0 +1,127 @@
+/* Slideshow container */
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+/* Slides */
+.slideshow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Line-up text animation */
+.slideshow .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  opacity: 0;
+  animation: lineUpText 1s ease-in-out infinite;
+}
+
+@keyframes lineUpText {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 100%);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -100%);
+  }
+}
+
+/* Text container */
+.slideshow .text-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  text-align: center;
+}
+
+/* Text styles */
+.slideshow .text-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.slideshow .text-container p {
+  font-size: 18px;
+}
+
+/* Navigation dots */
+.slideshow .dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.slideshow .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slideshow .dot.active {
+  background-color: white;
+}
+
+/* Hide navigation arrows for now */
+.slideshow .prev,
+.slideshow .next {
+  display: none;
+}
+.movie-gallery{
+  display: flex;
+  gap:20px;
+  align-items: center;
+  justify-content: start;
+  margin-top: 15px;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+
+.movie-gallery .movie{
+  height:200px;
+  width: 170px;
+  box-shadow: 9px 10px 12px -4px rgba(0,0,0,0.75);
+  border-radius: 5px;
+}
+
+.movie-gallery .movie img{
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+body{
+  background-image: url("https://img.freepik.com/premium-vector/full-color-gradient-abstract-background-orange-backgrounds-vector-illustration_542898-61.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 3845px;
+  
+}
+.nav-link active{
+  color:gold
+}
+
+.hover:hover{
+  transform: scale(1.1);
+
+}

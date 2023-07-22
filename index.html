@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+<style>
+  * {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+  }
+
+  video {
+    width: 100%;
+
+    object-fit: cover;
+  }
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+        <a style="color:goldenrod" class="navbar-brand" href="#"><img src="./PICTURES/LOGO-removebg-preview.png"
+                height="70px" alt>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a style="color:goldenrod" class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a style="color:goldenrod" class="nav-link active" aria-current="page" href="tvshows.html">TV SHOWS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a style="color:goldenrod" class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        MOVIES
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                        STYLE="background-color: black; color: goldenrod">
+                        <li><a style="color:goldenrod" class="dropdown-item" href="hollywood.html">Hollywood</a></li>
+                        <li><a style="color: goldenrod" class="dropdown-item" href="bollywood.html">Bollywood</a></li>
+                        <li><a style="color: goldenrod" class="dropdown-item" href="bengali.html">Tollywood</a></li>
+                        <li><a style="color: goldenrod" class="dropdown-item" href="south indian.html">South Indian</a></li>
+                        <li>
+
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:goldenrod" class="nav-link active" aria-current="page" href="#"></a>
+                        </li>
+
+                    </ul>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" style="color: goldenrod;" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active " style="padding: 0%;">
+        <a href="https://www.youtube.com/watch?v=Jvurpf91omw">
+          <video src="./PICTURES/INCEPTION (1).mp4" class="video slider" autoplay muted loop alt="..." height="744px">
+        </a>
+        <div class="carousel-caption d-none mt-50 d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.youtube.com/watch?v=rcQ_xZdzPBc&t=17s"></a>
+        <video src="./PICTURES/farzi.mp4" class="video slider" autoplay muted loop alt="..." height="744px">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.youtube.com/watch?v=oVzVdvGIC7U" target="_blank"><video src="./PICTURES/PEAKY BLINDERS.mp4"
+            class="video slider" autoplay muted loop alt="..." height="744px"></a>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item" style="width: 1800px;">
+        <video src="./PICTURES/3 idiots (2).mp4" class="video slide" autoplay muted loop alt="..."
+          style="height:744px;">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+      </div>
+      <div class="carousel-item">
+        <video src="./PICTURES/RATSASAN.mp4" class="video slide" autoplay muted loop alt="..." height="744px">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+      </div>
+      <div class="carousel-item">
+        <video src="./PICTURES/all under one roof. (1).mp4" class="video slide" autoplay muted loop alt="..."
+          height="744px">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+<h1 style="font-family: 'Times New Roman', Times, serif;">EXPLOSIONS IGNITE</h1>
+
+  <div class="c1">
+    <div class="row row-cols-1 row-cols-md-4 g-4" style="width: 1500px; margin-left:10px ; margin-top:10px">
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://m.media-amazon.com/images/M/MV5BNTdiYmVkM2YtM2RhMi00Nzc4LWE0ODQtNWE4OGQ5MDNiYWI0XkEyXkFqcGdeQXVyMTUzOTcyODA5._V1_.jpg" height="400px" class="card-img-top hover" alt="..."
+                    style="transition: 0.3s all ease;">
+                <div class="card-body" style="background-color: black; color: goldenrod;">
+                    <h5 class="card-title">MISSION IMPOSSIBLE:DEAD RECKONING</h5>
+                    <p>Ethan Hunt and his IMF team must track down a dangerous weapon before it falls into the wrong
+                        hands.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="">⭐8.2/10 </small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://talenthouse-res.cloudinary.com/image/upload/c_limit,f_auto,fl_progressive,h_1280,w_1280/v1579006121/user-1035451/profile/zvqhm0rdf3vuukopaeya.jpg" height="400px" class="card-img-top hover" alt="..."
+                    style="transition: 0.3s all ease;">
+                <div class="card-body" style="background-color: black; color: goldenrod;">
+                    <h5 class="card-title">1917</h5>
+                    <p>On April 6th, 1917, two soldiers race against time to deliver a message that saves 1,600 men
+                        from a deadly enemy trap</p>
+                </div>
+                <div class="card-footer">
+                    <small class="">⭐8.2/10</small>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://facinema.com/wp-content/uploads/2023/05/Official-Posters-for-Extraction-2-1.jpg" height="400px" class="card-img-top hover" alt="..."
+                    style="transition: 0.3s all ease;">
+                <div class="card-body" style="background-color: black; color: goldenrod;">
+                    <h5 class="card-title">EXTRACTION II</h5>
+                    <p>Tyler Rake returns with his team after surviving wounds in Dhaka, Bangladesh, ready for their
+                        next mission.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="">⭐7.6/10</small>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://m.media-amazon.com/images/M/MV5BNGRmMzAwZTEtMmQwNC00NWQ4LTgyZmQtYmVjZTUxMWExY2I1XkEyXkFqcGdeQXVyMTQ3Mzk2MDg4._V1_.jpg" height="400px" class="card-img-top hover" alt="..."
+                    style="transition: 0.3s all ease;">
+                <div class="card-body" style="background-color: black; color: goldenrod;">
+                    <h5 class="card-title">IB71</h5>
+                    <p>A two- front war between Indian intelligence agencies and the Pakistani establishment.
+
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="">⭐7.1/10</small>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<h1 style="font-family: 'Times New Roman', Times, serif;">MONDAY KA MOTIVATION</h1>
+<br>
+<div class="row row-cols-1 row-cols-md-4 g-4" style="width: 1516px;padding-left:2%;padding-top:0%">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://www.hollywoodreporter.com/wp-content/uploads/2014/09/the_imitation_game_a_p.jpg" height="400px" width="330px" class="card-img-top" alt="...">
+      <div class="card-body" style="background-color: black;color: goldenrod;">
+        <h5>THE IMITATION GAME</h5>
+        <p >A period biographical thriller on Alan Turing ,his homosexuality ,discovery of ENIGMA .</p>
+      </div>
+      <div class="card-footer">
+        <small class="">⭐8.0/10</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://www.rvcj.com/wp-content/uploads/2019/05/kota-factory-poster.jpg" height="400px" class="card-img-top" alt="...">
+      <div class="card-body" style="background-color: black;color: goldenrod;">
+        <h5 class="kotafactory">kOTAFACTORY</h5>
+        <p >The day-to-day life of Vaibhav, 16, and other students in Kota, India, a hub for coaching centers . </p>
+      </div>
+      <div class="card-footer">
+        <Small class="">⭐9.0/10</Small>
+
+        </Small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://m.media-amazon.com/images/M/MV5BMDFmODQzYTctZWYyNy00ZDkxLWE0MWEtNWJhMjNiMWZlZjdlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" height="400px" class="card-img-top" alt="...">
+      <div class="card-body" style="background-color: black;color: goldenrod;">
+        <h5 class="Generation-Ami">GENERATION AMI</h5>
+        <p>Apu's life turns upside down when his rebellious cousin Durga comes to stay with his family.</p>
+      </div>
+      <div class="card-footer">
+        <small class="">⭐7.6/10</small>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col">
+      <div class="card h-100">
+        <img src="https://cdn.bollywoodmdb.com/fit-in/movies/largethumb/2021/rocketry-the-nambi-effect/poster.jpg" height="400px" class="card-img-top" alt="...">
+        <div class="card-body" style="background-color: black;color: goldenrod;">
+          <h5 class=" ROCKETRY"> ROCKETRY</h5>
+          <p>East Indian aerospace engineer Nambi Narayanan faces charges of espionage. </p>
+        </div>
+        <div class="card-footer">
+          <small class="">⭐8.8/10</small>
+          
+        </div>
+      </div>
+    </div>
+</div>
+<br>
+<h1 style="font-family: 'Times New Roman', Times, serif;">HIGHEST IMDB ROMANTICS</h1>
+<br>
+
+<div class="row row-cols-1 row-cols-md-4 g-4" style="width: 1500px;padding-left:2%;padding-top:0%">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://www.letsfindmovie.com/wp-content/uploads/2022/09/keczKj9lSMIRexBEsMtavm7psd3-768x1064.jpg" height="400px" width="330px" class="card-img-top" alt="...">
+      <div class="card-body" style="background-color: black;color: goldenrod;">
+        <h5 class="card-title">KACHER MANUSH</h5>
+        <p class="card-text">upon hearing Kuntol's story, Sudarshan gets a dangerous idea that can solve both their problems.</p>
+      </div>
+      <div class="card-footer">
+        <small class="">⭐7.1/10</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://m.media-amazon.com/images/M/MV5BYzM5ZjllNDYtMjRlYS00ODkzLWJiNTMtMTEyNzA0OGRjMzAzXkEyXkFqcGdeQXVyMTExMTIzMTA5.V1_FMjpg_UX1000.jpg" height="400px" class="card-img-top" alt="..."style="transition:0.3s all ease";>
+      <div class="card-body" style="background-color: black;color: goldenrod;">
+        <h5 class="card-title">FLAMES</h5>
+          <p class="card-text">A teenage romance from The Timeliners that aims straight from the heart. This web-series is the story of a young romance unfolding as a chemical reaction.</p>
+      </div>
+      <div class="card-footer">
+        <Small class="">⭐8.9/10</Small>
+      </Small>
+            
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card h-100">
+    <img src="https://media.senscritique.com/media/000007087796/source_big/Eternal_Sunshine_of_the_Spotless_Mind.jpg" height="400px" class="card-img-top" alt="...">
+    <div class="card-body" style="background-color: black;color: goldenrod;">
+      <h5 class="card-title">ENTERNAL SUNSHINE OF THE SPOTLESS MIND</h5>
+        <p  class="card-text">A couple (Jim Carrey, Kate Winslet) erase the memories of their relationship.</p>
+      
+    </div>
+    <div class="card-footer">
+      <small class="">⭐7.3/10</small>
+      
+    </div>
+  </div>
+</div>
+<div class="col">
+    <div class="card h-100">
+      <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/sita-ramam-et00329656-30-05-2022-06-32-41.jpg" height="400px" class="card-img-top" alt="...">
+      <div class="card-body" style="background-color: black;color: goldenrod;">
+        <h5 class="card-title">SITA RAMAN</h5>
+        <p class="card-text">An orphan soldier, Lieutenant Ram's life changes, after he gets a letter from a girl named Sita. He meets her and love blossoms between them. When he comes back to his camp in Kashmir,After he gets caught in jail, he sends a letter to Sita which won't reach her.</p>
+      </div>
+      <div class="card-footer">
+        <small class="">⭐8.6/10</small>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<h1 style="font-family: 'Times New Roman', Times, serif;">MIDNIGHT HEARTBEATS</h1>
+<br>
+<div class="row row-cols-1 row-cols-md-4 g-4" style="width: 1500px;padding-left:1%;padding-top:0%">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://m.media-amazon.com/images/M/MV5BYTQzMDEwMjEtMGM4ZC00ZmFhLWE3MTAtNmE3ZGNhNmE1NTJhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" height="400px" width="330px" class="card-img-top" alt="...">
+      <div class="card-body" style="background-color: black; color: goldenrod;">
+        <h5 class="card-title">DRACULA SIR</h5>
+        <p class="card-text">Dracula Sir is a Noir psychological thriller, non-linear structured film tells the events that happened in two eras.</p>
+      </div>
+      <div class="card-footer">
+        <small class="">⭐7.4/10</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/evil-dead-rise-poster.jpg" class="card-img-top" alt="...">
+      <div class="card-body" style="background-color: black;color: goldenrod;">
+        <h5 class="card-title">EVIL DEAD RISE</h5>
+          <p class="card-text">A twisted tale of two estranged sisters whose reunion is cut short by the rise of flesh-possessing demons.</p>
+      </div>
+      <div class="card-footer">
+        <Small class="">⭐6.6/10</Small>
+
+        </Small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://es.web.img2.acsta.net/pictures/18/06/06/10/24/2467257.jpg" height="400px" class="card-img-top" alt="...">
+      <div class="card-body" style="background-color: black;color: goldenrod;">
+        <h5 class="card-title">HEREDITARY</h5>
+          <p class="card-text">After their grandmother passes away, a family tries to outrun the sinister fate they've inherited.</p>
+        
+      </div>
+      <div class="card-footer">
+        <small class="">⭐7.3/10</small>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col">
+      <div class="card h-100">
+        <img src="https://www.themoviedb.org/t/p/original/5AXsdW9nGFwvGbG96k1PWZKcDgO.jpg" height="400px" class="card-img-top" alt="...">
+        <div class="card-body" style="background-color: black;color: goldenrod;">
+          <h5 class="card-title">SMILE</h5>
+            <p class="card-text">Traumatic incident involving a patient, a psychiatrist becomes increasingly convinced she is being threatened by an uncanny entity.</p>
+          </div>
+          <div class="card-footer">
+            <small class="">⭐6.5/10</small>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+        
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
